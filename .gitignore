@@ -51,6 +51,7 @@ rsconnect/
 # vs folder
 **/.vscode/
 
-# project folder
-src/nb/data/support/
-information/
+# personal folder
+information/*.*
+node_modules
+assets

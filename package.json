@@ -1,0 +1,34 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "estadisticas sobre desaparecidos en Ecuador",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccalobeto/missed-in-pe.git"
+  },
+  "keywords": [
+    "missed",
+    "Ecuador",
+    "choropleth",
+    "statistics"
+  ],
+  "author": "Carlos leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccalobeto/missed-in-pe/issues"
+  },
+  "homepage": "https://github.com/ccalobeto/missed-in-pe#readme",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module"
+}
