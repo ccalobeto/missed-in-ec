@@ -2,7 +2,9 @@ library(tidyverse)
 library(ggplot2)
 
 # import scraped datasets
-missed_file <- "data/input/mdg_personasdesaparecidas_pm_2023_enero_mayo.csv"
+# https://www.datosabiertos.gob.ec/dataset/personas-desaparecidas
+# "https://datosabiertos.gob.ec/dataset/bb80c831-a3e6-4be2-b248-7ef0f6ccaedc/resource/7329fc75-94c3-4611-94ee-d84cd18fef1b/download/mdi_personasdesaparecidas_pm_2023_enero_septiembre.csv"
+missed_file <- "data/input/mdi_personasdesaparecidas_pm_2023_enero_septiembre.csv"
 columns <- c("provincia", "latitud", "longitud", "edad", "sexo",
              "motivo_desaparicion", "motivo_desaparicion_obs",
              "fecha_desaparicion", "situacion_actual", "fecha_localizacion")
