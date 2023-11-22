@@ -32,4 +32,11 @@ df %>%
   ggplot(aes(situacion_actual, days_gone)) + geom_boxplot()
 mean_days_gone <- mean(df$days_gone, na.rm = TRUE)
 
-write.csv(df, "data/output/missed_ec_prep.csv", row.names = FALSE)
+df$dayYear <- df$month * 100 + df$day
+
+missed_per_day <- df %>% 
+  group_by(dayYear) %>%
+  summarize(number = n())
+
+
+#write.csv(df, "data/output/missed_ec_prep.csv", row.names = FALSE)
