@@ -78,13 +78,6 @@ const projection = geo
   .reflectY(true)
   .fitSize([width, height], nation)
 
-console.log(categories)
-console.log(categoriesMap)
-// console.log('cantonPopulationBy2020: ', cantonPopulationBy2020[0])
-// console.log('aggData: ', aggData[0])
-// console.log('joined: ', joined[0])
-// console.log('dataMap', dataMap[10])
-// console.log('projection', projection)
 pieChart('#donutchart1', donutData, donutColorScale)
 barChart('#barchart', barData, barColorScale)
 pieChart('#donutchart2', donutSexData, donutSexColorScale)

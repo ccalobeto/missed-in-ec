@@ -16,8 +16,8 @@ export function pieChart (id, data, colorScale) {
     .value(d => d.value)
 
   const labelArcs = arc()
-    .innerRadius(0.95 * height / 2)
-    .outerRadius(0.95 * height / 2)
+    .innerRadius(0.90 * height / 2)
+    .outerRadius(0.99 * height / 2)
 
   const pieArcs = pie_(data)
 
