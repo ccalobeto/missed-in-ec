@@ -1,7 +1,7 @@
 {
   "name": "package.json",
   "version": "1.0.0",
-  "description": "estadisticas sobre desaparecidos en Ecuador",
+  "description": "Estadísticas sobre Personas desaparecidas en Ecuador",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
