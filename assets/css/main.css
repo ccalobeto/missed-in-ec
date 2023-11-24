@@ -5926,9 +5926,9 @@ body.is-preload .spotlight.onload-image-fade-in .image img {
 	object-position: right;
 }
 
-.spotlight .image {
+/* .spotlight .image {
 	background-color: rgba(0, 0, 0, 0.125);
-}
+} */
 
 .spotlight.invert .image {
 	background-color: rgba(255, 255, 255, 0.125);
