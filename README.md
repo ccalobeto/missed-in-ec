@@ -1,3 +1,5 @@
+# updated chart in [this repo](https://github.com/ccalobeto/missed-ec).
+
 # Análisis del crimen en Ecuador relacionado a la desaparición de personas
 
 El presente repositorio muestra el proceso de preparación, transformación y visualización de los datos sobre las desapariciones en el vecino país del Ecuador en el 2023.  
